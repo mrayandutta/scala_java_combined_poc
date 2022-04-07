@@ -1,0 +1,6 @@
+docker --version
+docker container ls --all
+How to stop all Docker Containers
+docker kill $(docker ps -q)
+How to remove all docker containers
+docker rm $(docker ps -a -q)
