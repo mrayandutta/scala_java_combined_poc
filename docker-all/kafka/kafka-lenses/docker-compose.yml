@@ -1,0 +1,26 @@
+version: '3'
+services:
+  lenses:
+    image: "lensesio/lenses:4.2"
+    container_name: "lenses"
+    ports:
+      - 9991:9991
+    volumes:
+      - /path/in/host/license.json:/mnt/secrets/license.json
+    ports:
+      - 3030:3030
+      - 9092:9092
+      - 9991:9991
+      - 8081:8081
+    environment:
+      - SAMPLEDATA=0
+      - REST_PORT=0
+      - FORWARDLOGS=0
+      - RUNTESTS=0
+      - DISABLE_JMX=1
+      - CONNECTORS=${CONNECTOR}
+      - WEB_PORT=0
+      - DISABLE=hive-1.1
+    volumes:
+      - ./license.json:/license.json
+    network_mode: host
