@@ -1,10 +1,12 @@
 Enter Kafka Bash
 ------------------
-winpty docker exec -it kafka_container bash
+winpty docker exec -it kafka bash
 Run Kafka commands
 -------------------
 First navigate to Kafka directory
 cd /opt/kafka_2.13-2.8.1/
+For bitnami
+cd /opt/bitnami/kafka/
 ./bin/kafka-topics.sh --create --bootstrap-server=localhost:9092 --replication-factor 1 --partitions 1 --topic employee
 ./bin/kafka-console-producer.sh --broker-list localhost:9092 --topic employee
 ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic employee --from-beginning
