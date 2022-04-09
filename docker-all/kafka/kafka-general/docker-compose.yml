@@ -2,7 +2,7 @@ version: '3'
 
 services:
   zookeeper:
-    container_name: zookeeper_container
+    container_name: zookeeper
     image: wurstmeister/zookeeper
     ports:
     - "2181:2181"
