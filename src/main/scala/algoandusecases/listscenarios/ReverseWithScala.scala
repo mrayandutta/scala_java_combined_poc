@@ -1,4 +1,4 @@
-package basics.listscenarios
+package algoandusecases.listscenarios
 
 object ReverseWithScala {
   def main(args: Array[String]): Unit = {

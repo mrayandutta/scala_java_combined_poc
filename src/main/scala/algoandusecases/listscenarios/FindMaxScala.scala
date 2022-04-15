@@ -1,4 +1,4 @@
-package basics.listscenarios
+package algoandusecases.listscenarios
 
 object FindMaxScala {
   def main(args: Array[String]): Unit = {
