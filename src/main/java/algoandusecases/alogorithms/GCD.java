@@ -4,7 +4,7 @@ public class GCD {
     public static void main(String[] args) {
        // System.out.println("GCD :"+findGCD(3,10,0));
         //System.out.println("GCD :"+findGCD(5,10,0));
-        System.out.println("GCD :"+findGCD(65,10,0));
+       // System.out.println("GCD :"+findGCD(65,10,0));
 
     }
     public static int findGCD(int number1,int number2,int gcd)
