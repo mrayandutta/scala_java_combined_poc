@@ -1,4 +1,4 @@
-package corejava.arraysamples;
+package algoandusecases.arraysamples;
 
 import java.util.Arrays;
 

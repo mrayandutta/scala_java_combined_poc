@@ -1,8 +1,13 @@
-package corejava.arraysamples;
+package algoandusecases.arraysamples;
 
 import java.util.Arrays;
 import java.util.Collections;
 
+/**
+ * An array of integers is defined as being meandering order when the first two elements are
+ * the respective largest and smallest elements in the array and the subsequent elements
+ * alternate between its next largest and next smallest elements.
+ */
 public class MeanderingArray {
 	public static void main(String[] args) {
 		Integer[] numberArray = {-1, 3, 4, 6, -5};

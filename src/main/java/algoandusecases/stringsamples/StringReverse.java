@@ -1,4 +1,4 @@
-package corejava.stringsamples;
+package algoandusecases.stringsamples;
 
 import java.util.Comparator;
 
