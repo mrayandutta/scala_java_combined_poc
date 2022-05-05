@@ -1,0 +1,8 @@
+http://www.legendu.net/misc/blog/spark-unit-test/ Good for future rnd not now
+https://github.com/bosea/spark-unit-testing/blob/master/README.md cucumber nothing else
+https://zedar.gitbooks.io/spark-hadoop-notes/content/spark_unit_testing_with_hdfs.html
+https://eugene-lopatkin.medium.com/apache-spark-unit-testing-part-2-spark-sql-35c76ed592b0 - Goldmine -tough- Spark 3 ?
+
+https://sysgears.com/articles/testing-strategies-for-apache-spark-based-projects/
+https://dev.to/adevintaspain/spark-unit-integration-and-end-to-end-tests-f52
+https://medium.com/expedia-group-tech/unit-testing-apache-spark-applications-using-hive-tables-ec653c6f25be

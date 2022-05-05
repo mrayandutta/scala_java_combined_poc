@@ -15,6 +15,7 @@
         <spark.version>2.4.1</spark.version>
         <scala.version>2.12.8</scala.version>
         <scala.compat.version>2.12</scala.compat.version>
+        <scala-test.version>3.0.5</scala-test.version>
     </properties>
 
     <dependencies>
@@ -94,14 +95,24 @@
         <dependency>
             <groupId>org.scalactic</groupId>
             <artifactId>scalactic_${scala.compat.version}</artifactId>
-            <version>3.0.5</version>
+            <version>${scala-test.version}</version>
+            <!--<scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>org.scalatest</groupId>
             <artifactId>scalatest_${scala.compat.version}</artifactId>
-            <version>3.0.5</version>
-            <scope>test</scope>
+            <!--<version>${scala-test.version}</version>-->
+            <version>${scala-test.version}</version>
+           <!-- <scope>test</scope>-->
         </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest-funsuite_${scala.compat.version}</artifactId>
+            <!--<version>${scala-test.version}</version>-->
+            <version>3.2.7</version>
+            <!--<scope>test</scope>-->
+        </dependency>
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
