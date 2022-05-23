@@ -1,1 +1,3 @@
 https://github.com/cdarlint/winutils - For winutil and hadoop.dll
+
+https://sparkbyexamples.com/spark/explode-spark-array-and-map-dataframe-column/
