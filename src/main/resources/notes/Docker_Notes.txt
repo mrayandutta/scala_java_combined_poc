@@ -10,3 +10,7 @@ docker image prune -a
 docker volume ls
 Remove all volumes
 docker volume prune
+
+https://medium.com/agile-lab-engineering/how-to-create-an-apache-spark-3-0-development-cluster-on-a-single-machine-using-docker-964478c3735b
+https://dev-listener.medium.com/docker-compose-for-developers-97e2f44a91b8
+spark-shell --master spark://localhost:7077 --total-executor-cores 6 --executor-memory 2560m
